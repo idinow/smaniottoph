@@ -1,8 +1,8 @@
-import { Shield, Award, Heart, Users } from "lucide-react";
+import { Shield, Award, Heart, UserRound } from "lucide-react";
 
 const differentials = [
   {
-    icon: Users,
+    icon: UserRound,
     title: "Atendimento Individualizado",
     description: "Consultas personalizadas e confidenciais, focadas nas necessidades e objetivos únicos de cada paciente.",
     stat: "100%",
