@@ -11,7 +11,7 @@ const Hero = () => {
       </div>
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="max-w-3xl pt-6 md:pt-16">
+        <div className="max-w-3xl pt-5 md:pt-8">
           <img src={logo} alt="Clínica Smaniotto" className="h-16 md:h-20 mb-8 md:mb-10 animate-fade-in brightness-0 invert" />
           
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-6 md:mb-8 animate-fade-in">
