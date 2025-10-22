@@ -51,7 +51,7 @@ const Procedures = () => {
           {procedures.map((procedure, index) => (
             <div 
               key={index}
-              className="group relative overflow-hidden rounded-3xl border border-border bg-card hover:shadow-strong transition-smooth p-8"
+              className="group relative overflow-hidden rounded-3xl border border-border/50 bg-secondary/40 hover:bg-card hover:shadow-strong transition-smooth p-8"
             >
               <div className={`absolute inset-0 bg-gradient-to-br ${procedure.color} opacity-0 group-hover:opacity-100 transition-smooth`} />
               

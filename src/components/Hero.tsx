@@ -17,11 +17,11 @@ const Hero = () => {
       </div>
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl pt-8 md:pt-16">
           <img 
             src={logo} 
             alt="Clínica Smaniotto" 
-            className="h-16 md:h-20 mb-8 animate-fade-in brightness-0 invert"
+            className="h-12 md:h-16 mb-8 animate-fade-in brightness-0 invert"
           />
           
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-6 animate-fade-in">
@@ -54,9 +54,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      
-      {/* Subtle bottom fade */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
     </section>
   );
 };

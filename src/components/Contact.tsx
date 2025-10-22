@@ -15,7 +15,7 @@ const Contact = () => {
             </p>
           </div>
           
-          <div className="bg-card rounded-2xl shadow-medium p-8 md:p-12">
+          <div className="bg-secondary/30 rounded-2xl shadow-medium p-8 md:p-12 border border-border/50">
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-6">
                 <div className="flex items-start group">

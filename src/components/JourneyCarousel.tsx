@@ -128,7 +128,7 @@ const JourneyCarousel = () => {
                   <div className="hidden sm:block absolute top-20 left-full w-6 h-0.5 bg-gradient-to-r from-primary/30 to-transparent z-0" />
                 )}
                 
-                <div className="relative h-full bg-card rounded-2xl border-2 border-border p-8 shadow-soft hover:shadow-medium transition-smooth hover:border-primary/30">
+                <div className="relative h-full bg-secondary/40 rounded-2xl border border-border/50 p-8 shadow-soft hover:shadow-medium hover:bg-card transition-smooth hover:border-primary/30">
                   <div className="flex items-center gap-4 mb-6">
                     <div className="relative">
                       <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center group-hover:scale-110 transition-smooth">

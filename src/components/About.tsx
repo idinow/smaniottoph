@@ -23,7 +23,7 @@ const About = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 bg-card rounded-2xl shadow-medium p-6 border border-border max-w-[250px]">
+            <div className="absolute -bottom-6 -right-6 bg-background rounded-2xl shadow-strong p-6 border border-border max-w-[250px]">
               <p className="text-4xl font-bold text-primary mb-1">10+</p>
               <p className="text-sm text-muted-foreground">Anos de experiência em cirurgia plástica</p>
             </div>
@@ -50,7 +50,7 @@ const About = () => {
               ))}
             </div>
             
-            <div className="bg-accent/50 border-l-4 border-primary rounded-r-xl p-6">
+            <div className="bg-secondary/30 border-l-4 border-primary rounded-r-xl p-6">
               <p className="text-lg italic text-foreground/90 leading-relaxed">
                 "A cirurgia plástica une ciência, arte e empatia. Cada procedimento é único, 
                 pensado para alcançar resultados naturais e duradouros que respeitem a identidade de cada paciente."

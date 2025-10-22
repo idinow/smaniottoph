@@ -48,7 +48,7 @@ const Differentials = () => {
           {differentials.map((differential, index) => (
             <div 
               key={index}
-              className="group relative bg-card rounded-3xl p-8 border-2 border-border hover:border-primary/30 shadow-soft hover:shadow-medium transition-smooth"
+              className="group relative bg-secondary/40 rounded-3xl p-8 border border-border/50 hover:border-primary/30 hover:bg-card shadow-soft hover:shadow-medium transition-smooth"
             >
               <div className="absolute top-8 right-8 text-right">
                 <p className="text-2xl font-bold text-primary">{differential.stat}</p>
