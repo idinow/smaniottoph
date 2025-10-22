@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle } from "lucide-react";
+import { MessageCircle, Award } from "lucide-react";
 import logo from "@/assets/logo-transparent.png";
 import heroBg from "@/assets/dr-pedro-horizontal.jpg";
 
@@ -17,19 +17,24 @@ const Hero = () => {
       </div>
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="max-w-2xl">
+        <div className="max-w-3xl">
           <img 
             src={logo} 
             alt="Clínica Smaniotto" 
-            className="h-16 md:h-20 mb-12 animate-fade-in brightness-0 invert"
+            className="h-16 md:h-20 mb-8 animate-fade-in brightness-0 invert"
           />
           
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-6 animate-fade-in">
+            <Award className="h-4 w-4 text-white" />
+            <span className="text-sm font-medium text-white">USP • Stanford • Doutor em Ciências</span>
+          </div>
+          
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-8 animate-slide-up leading-[1.05] text-white">
-            Excelência em cirurgia plástica
+            Beleza alinhada à função
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-10 leading-relaxed animate-fade-in delay-150 max-w-xl">
-            Resultados naturais e seguros com formação internacional USP e Stanford
+            Cirurgia plástica com propósito — unir ciência, técnica e sensibilidade para resultados naturais e seguros
           </p>
           
           <div className="animate-scale-in delay-300">
@@ -40,10 +45,10 @@ const Hero = () => {
             >
               <Button 
                 size="lg" 
-                className="gradient-accent text-white hover:opacity-90 transition-smooth shadow-strong text-lg px-12 py-8 rounded-full group"
+                className="bg-white text-foreground hover:bg-white/90 transition-smooth shadow-strong text-lg px-12 py-8 rounded-full group font-semibold"
               >
                 <MessageCircle className="mr-3 h-6 w-6 group-hover:scale-110 transition-smooth" />
-                Agendar Consulta
+                Agendar Avaliação
               </Button>
             </a>
           </div>

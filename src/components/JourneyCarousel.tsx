@@ -179,7 +179,7 @@ const JourneyCarousel = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button size="lg" className="gradient-accent text-white hover:opacity-90 transition-smooth shadow-medium text-lg px-10 py-7 rounded-full">
+            <Button size="lg" className="gradient-premium text-white hover:opacity-90 transition-smooth shadow-medium text-lg px-10 py-7 rounded-full">
               <MessageCircle className="mr-2 h-6 w-6" />
               Iniciar Minha Jornada
             </Button>
