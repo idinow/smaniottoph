@@ -13,15 +13,15 @@ const Hero = () => {
           alt="Dr. Pedro Smaniotto" 
           className="w-full h-full object-cover object-center"
         />
-        <div className="absolute inset-0 gradient-hero" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/30 to-transparent" />
       </div>
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="max-w-3xl pt-8 md:pt-16">
+        <div className="max-w-3xl pt-4 md:pt-16">
           <img 
             src={logo} 
             alt="Clínica Smaniotto" 
-            className="h-12 md:h-16 mb-8 animate-fade-in brightness-0 invert"
+            className="h-10 md:h-16 mb-6 md:mb-8 animate-fade-in brightness-0 invert"
           />
           
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-6 animate-fade-in">
