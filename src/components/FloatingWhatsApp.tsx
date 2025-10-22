@@ -11,7 +11,7 @@ const FloatingWhatsApp = () => {
     >
       <Button 
         size="lg" 
-        className="rounded-full h-16 w-16 shadow-strong gradient-premium text-white hover:opacity-90 transition-smooth group"
+        className="rounded-full h-16 w-16 shadow-strong gradient-accent text-white hover:opacity-90 transition-smooth group"
         aria-label="Contato via WhatsApp"
       >
         <MessageCircle className="h-7 w-7 group-hover:scale-110 transition-smooth" />
