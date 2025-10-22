@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Award } from "lucide-react";
 import logo from "@/assets/logo-transparent.png";
-import heroBg from "@/assets/dr-pedro-horizontal.jpg";
+import heroBg from "@/assets/dr-pedro-hero.jpg";
 const Hero = () => {
   return <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background Image with Overlay */}
