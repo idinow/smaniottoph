@@ -2,7 +2,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Differentials from "@/components/Differentials";
 import Procedures from "@/components/Procedures";
-import Journey from "@/components/Journey";
+import JourneyCarousel from "@/components/JourneyCarousel";
 import Contact from "@/components/Contact";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import Footer from "@/components/Footer";
@@ -14,7 +14,7 @@ const Index = () => {
       <About />
       <Differentials />
       <Procedures />
-      <Journey />
+      <JourneyCarousel />
       <Contact />
       <FloatingWhatsApp />
       <Footer />
