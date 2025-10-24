@@ -10,7 +10,9 @@ import {
 } from "@/components/ui/carousel";
 
 const PLACE_ID = "678763075678900726";
-const REVIEWS_API_URL = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/google-reviews`;
+// Substitua pela sua chave da Google Places API
+const GOOGLE_API_KEY = "SUA_CHAVE_API_DO_GOOGLE_AQUI";
+const GOOGLE_PLACES_URL = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${PLACE_ID}&fields=name,rating,user_ratings_total,reviews&key=${GOOGLE_API_KEY}&language=pt-BR`;
 
 interface Review {
   author_name: string;
@@ -35,23 +37,19 @@ const GoogleReviews = () => {
   useEffect(() => {
     const fetchReviews = async () => {
       try {
-        const response = await fetch(REVIEWS_API_URL, {
-          headers: {
-            Authorization: `Bearer ${import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY}`,
-          },
-        });
+        const response = await fetch(GOOGLE_PLACES_URL);
         
         const data = await response.json();
         
-        if (data.error) {
-          throw new Error(data.error);
+        if (data.status === "OK" && data.result) {
+          setPlaceDetails({
+            rating: data.result.rating,
+            user_ratings_total: data.result.user_ratings_total,
+            reviews: data.result.reviews || [],
+          });
+        } else {
+          throw new Error(`Google API error: ${data.status}`);
         }
-        
-        setPlaceDetails({
-          rating: data.rating,
-          user_ratings_total: data.user_ratings_total,
-          reviews: data.reviews,
-        });
       } catch (err) {
         console.error("Erro ao buscar avaliações:", err);
         setError(true);
