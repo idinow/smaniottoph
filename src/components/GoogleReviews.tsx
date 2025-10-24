@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/carousel";
 
 // IMPORTANTE: Adicione sua Google Places API Key aqui
-const GOOGLE_API_KEY = "SUA_API_KEY_AQUI";
+const GOOGLE_API_KEY = "AIzaSyDKZIJ0tUvWwJTD0ezv4mar13jhA35YktA";
 const PLACE_ID = "678763075678900726";
 
 interface Review {
