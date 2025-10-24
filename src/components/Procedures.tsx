@@ -33,7 +33,7 @@ const procedures = [
 
 const Procedures = () => {
   return (
-    <section id="procedimentos" className="py-16 md:py-20 bg-secondary/10 relative overflow-hidden">
+    <section id="procedimentos" className="py-16 md:py-20 bg-background relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-muted/10 to-transparent" />
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">

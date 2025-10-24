@@ -12,7 +12,7 @@ const About = () => {
   ];
 
   return (
-    <section id="sobre" className="py-16 md:py-20 bg-muted/20">
+    <section id="sobre" className="py-16 md:py-20 bg-secondary/50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-[1fr_1.2fr] gap-16 items-center">
           <div className="relative">
