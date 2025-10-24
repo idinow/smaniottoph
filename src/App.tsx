@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import HeadTags from "@/components/HeadTags";
 import BodyTags from "@/components/BodyTags";
+import SEO from "@/components/SEO";
 
 const queryClient = new QueryClient();
 
@@ -15,6 +16,7 @@ const App = () => (
     <TooltipProvider>
       <HeadTags />
       <BodyTags />
+      <SEO />
       <Toaster />
       <Sonner />
       <BrowserRouter>

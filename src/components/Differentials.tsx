@@ -33,7 +33,7 @@ const differentials = [
 
 const Differentials = () => {
   return (
-    <section className="py-16 md:py-20 bg-background relative">
+    <section className="py-16 md:py-20 bg-accent/5 relative">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-20">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">

@@ -6,13 +6,26 @@ const Hero = () => {
   return <section className="relative min-h-screen flex items-end overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
-        <img src={heroBg} alt="Dr. Pedro Smaniotto" className="w-full h-full object-cover object-[40%_center] md:object-right" />
+        <img 
+          src={heroBg} 
+          alt="Dr. Pedro Smaniotto - Cirurgião Plástico em Campo Grande MS especializado em mamoplastia, abdominoplastia e rinoplastia" 
+          className="w-full h-full object-cover object-[40%_center] md:object-right" 
+          loading="eager"
+          decoding="async"
+        />
         <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/30 to-transparent" />
       </div>
       
       {/* Logo fixed at top */}
       <div className="absolute top-6 left-4 sm:left-6 lg:left-8 z-20">
-        <img src={logo} alt="Clínica Smaniotto" className="h-14 md:h-16 animate-fade-in brightness-0 invert" />
+        <img 
+          src={logo} 
+          alt="Clínica Smaniotto - Cirurgia Plástica" 
+          className="h-14 md:h-16 animate-fade-in brightness-0 invert" 
+          loading="eager"
+          width="200"
+          height="64"
+        />
       </div>
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

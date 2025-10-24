@@ -19,8 +19,12 @@ const About = () => {
             <div className="aspect-[3/4] rounded-3xl overflow-hidden shadow-strong">
               <img 
                 src={drPedro} 
-                alt="Dr. Pedro Smaniotto - Cirurgião Plástico" 
+                alt="Dr. Pedro Smaniotto - Cirurgião Plástico formado pela USP e Stanford, especialista em cirurgia plástica estética e reparadora" 
                 className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+                width="600"
+                height="800"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-background rounded-2xl shadow-strong p-6 border border-border max-w-[250px]">
